@@ -1,4 +1,4 @@
-app.get("/api/friends", function(req, res) {
+app.get("/api/ friends", function(req, res) {
     var chosen = req.params.friends;
   
     if (chosen) {
@@ -14,7 +14,7 @@ app.get("/api/friends", function(req, res) {
     return res.json(characters);
   });
 
-
+  
 
   app.post("/api/friends", function(req, res) {
     var friends = req.body;
