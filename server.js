@@ -5,7 +5,7 @@ var bodyParser = reqiure("body-parser");
 var app = express();
 
 // Sets an initial port. We"ll use this later in our listener
-var PORT = process.env.PORT || 8000;
+var PORT = 3000;
 
 
 app.use(bodyParser.json());
