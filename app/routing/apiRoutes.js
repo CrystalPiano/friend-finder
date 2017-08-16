@@ -1,3 +1,7 @@
+var express = require ('express');
+
+var express = app;
+
 app.get("/api/ friends", function(req, res) {
     var chosen = req.params.friends;
   
