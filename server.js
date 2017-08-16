@@ -1,5 +1,5 @@
 var express = require("express");
-var bodyParser = reqiure("body-parser");
+var bodyParser = require("body-parser");
 
 
 var app = express();
@@ -22,3 +22,4 @@ require("./app/routing/htmlRoutes")(app);
 app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
   });
+
